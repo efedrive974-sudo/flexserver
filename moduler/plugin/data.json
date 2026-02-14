@@ -1,0 +1,45 @@
+{
+  "plugin_metadata": {
+    "name": "IP Management System",
+    "version": "1.21.8",
+    "release_type": "STABLE",
+    "description": "Cross-platform IP monitoring for Java and Bedrock editions",
+    "status": "active"
+  },
+  "server_config": {
+    "java": {
+      "host": "localhost",
+      "port": 25565,
+      "version_protocol": "1.21.8",
+      "dependencies": ["minecraft-server-util"]
+    },
+    "bedrock": {
+      "host": "localhost",
+      "port": 19132,
+      "version_protocol": "1.21.8",
+      "dependencies": ["bedrock-server-util"]
+    }
+  },
+  "event_handlers": {
+    "on_player_join": "Player {name} (IP: {ip}) connected to 1.21.8 server.",
+    "on_player_leave": "Player {name} disconnected from 1.21.8 instance.",
+    "on_system_error": "Critical error in version 1.21.8: {error}"
+  },
+  "remote_assets": {
+    "source_urls": {
+      "vanilla": "https://file_flexgame_server.com/bin/javw/stable/1.21.8/server.jar",
+      "fabric": "https://file_flexgame_server.com/bin/javw/stable/1.21.8/fabric-server.jar",
+      "forge": "https://file_flexgame_server.com/bin/javw/stable/1.21.8/forge-server.jar"
+    },
+    "cache_settings": {
+      "cache_name": "ip-management-1-21-8",
+      "offline_support": true
+    }
+  },
+  "system_logs": {
+    "initialization": "IP Management Plugin for 1.21.8 is starting...",
+    "java_loaded": "Java Edition 1.21.8 modules successfully injected.",
+    "bedrock_loaded": "Bedrock Edition 1.21.8 modules successfully injected.",
+    "cache_complete": "Offline assets for 1.21.8 have been cached."
+  }
+}
