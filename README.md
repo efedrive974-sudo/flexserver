@@ -3,4 +3,5 @@
 ÖNEMLİ: Bu depo sadece sunucu için gerekli dosyaları barındırır. Gerekmedikçe kullanımı yasaktır.
 
 Sunucu Adresimiz:
-flexgame.aternos.me
+flexgame.falixmc.mc
+
