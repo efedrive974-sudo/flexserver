@@ -1,0 +1,5 @@
+loader_type= Fabric
+edition= javw.exe
+client=server.jar
+url_mojang=piston-meta.mojang.com/#
+url_server=efedrive974-sudo.github.io/flexserver/#
